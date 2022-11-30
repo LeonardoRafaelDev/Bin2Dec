@@ -1,6 +1,6 @@
-let inputBinary = document.getElementById("binary");
-let conversao = document.getElementById("convert");
-let alerta = document.getElementById("alerta");
+const inputBinary = document.getElementById("binary");
+const conversao = document.getElementById("convert");
+const alerta = document.getElementById("alerta");
 
 inputBinary.addEventListener("keyup", validacao);
 
